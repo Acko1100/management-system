@@ -3,10 +3,7 @@ package ac.rs.singidunum.springboot.controller;
 import ac.rs.singidunum.springboot.model.Employee;
 import ac.rs.singidunum.springboot.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @CrossOrigin("*")
@@ -20,5 +17,10 @@ public class EmployeeController {
     @GetMapping
     public List<Employee> getAllEmployees(){
         return employeeRepository.findAll();
+    }
+
+    @PostMapping
+    public Employee createEmployee(@RequestBody Employee employee) {
+        return employeeRepository.save(employee);
     }
 }

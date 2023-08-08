@@ -3,7 +3,17 @@
   bottom: 0;
   width:100%;
   height: 50px;
-  background-color: black;
+  background-color: darkgray;
   text-align: center;
   color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Align items to the left and right */
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.spacer {
+  flex-grow: 1; /* Expand to fill space between buttons */
 }

@@ -8,7 +8,7 @@ const FooterComponent = () => {
           <span className="text-dark">© 2023 Aleksandar Radivojevic</span>
           <span className="contact-info">
             Contact: 
-            <a href="mailto:your@email.com"> aleksandar.radivojevic.201@singimail.rs</a>
+            <a href="mailto:aleksandar.radivojevic.201@singimail.rs"> aleksandar.radivojevic.201@singimail.rs</a>
             <span> | </span>
             Phone: <span>061/1234/567</span>
           </span>

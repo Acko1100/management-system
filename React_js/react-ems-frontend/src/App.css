@@ -1,12 +1,24 @@
 .footer {
   position: absolute;
   bottom: 0;
-  width:100%;
+  width: 100%;
   height: 50px;
   background-color: darkgray;
   text-align: center;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.contact-info {
+  margin-left: 10px;
+}
+
+.separator {
+  margin: 0 10px;
+}
+
 
 .button-container {
   display: flex;
@@ -16,4 +28,14 @@
 
 .spacer {
   flex-grow: 1; /* Expand to fill space between buttons */
+}
+
+.button-cell {
+  display: flex; /* Use flexbox to align buttons */
+  gap: 20px;    /* Adjust the gap according to your preference */
+  align-items: center; /* Vertically center buttons */
+}
+
+.navbar-brand {
+  margin-left: 20px;
 }

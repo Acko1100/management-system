@@ -22,18 +22,18 @@
 
 .button-container {
   display: flex;
-  justify-content: space-between; /* Align items to the left and right */
-  margin-top: 10px; /* Adjust the margin as needed */
+  justify-content: space-between; 
+  margin-top: 10px; 
 }
 
 .spacer {
-  flex-grow: 1; /* Expand to fill space between buttons */
+  flex-grow: 1; 
 }
 
 .button-cell {
-  display: flex; /* Use flexbox to align buttons */
-  gap: 20px;    /* Adjust the gap according to your preference */
-  align-items: center; /* Vertically center buttons */
+  display: flex; 
+  gap: 20px;   
+  align-items: center; 
 }
 
 .navbar-brand {

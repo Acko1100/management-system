@@ -1,6 +1,6 @@
 package ac.rs.singidunum.springboot;
 
-import ac.rs.singidunum.springboot.model.Employee;
+
 import ac.rs.singidunum.springboot.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -18,17 +18,6 @@ public class SpringbootBackendIsoApplication implements CommandLineRunner {
 	private EmployeeRepository employeeRepository;
 	@Override
 	public void run(String... args) throws Exception {
-//		Employee employee = new Employee();
-//		employee.setFirstName("Aleksandar");
-//		employee.setLastName("Radivojevic");
-//		employee.setEmailId("aleksandar.radivojevic.201@singimail.rs");
-//		employeeRepository.save(employee);
-//
-//		Employee employee1 = new Employee();
-//		employee1.setFirstName("Danilo");
-//		employee1.setLastName("Radivojevic");
-//		employee1.setEmailId("danilo.radivojevic.20@singimail.rs");
-//		employeeRepository.save(employee1);
 
 	}
 }

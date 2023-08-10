@@ -63,7 +63,7 @@ const AddEmployeeComponent = () => {
           console.log(error);
         });
     }
-  }, [id]); // Include 'id' in the dependency array
+  }, [id]); 
   
 
 const title = () => {
